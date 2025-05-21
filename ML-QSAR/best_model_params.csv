@@ -1,0 +1,16 @@
+Model,Feature_Type,Param_1,Param_2,Param_3,Param_4,Param_5,Param_6,Param_7,Param_8,Param_9,Param_10,Param_11,Param_12,Param_13,Param_14,Param_15,Param_16,Param_17,Param_18,Param_19,Param_20,Param_21,Param_22,Param_23,Param_24,Param_25,Param_26,Param_27,Param_28,Param_29,Param_30,Param_31,Param_32,Param_33,Param_34,Param_35
+KNN,X_rdkit,auto,30.0,minkowski,,,50.0,2.0,uniform,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KNN,X_ECFP6,auto,30.0,minkowski,,,10.0,2.0,uniform,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KNN,X_FCFP6,auto,30.0,minkowski,,,10.0,2.0,uniform,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KNN,X_MACCS,auto,30.0,minkowski,,,50.0,2.0,uniform,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KNN,X_All_descrs,auto,30.0,minkowski,,,10.0,2.0,uniform,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RF,X_rdkit,,,,,,,,,False,0.0,squared_error,50.0,sqrt,150.0,,0.0,5.0,150.0,0.0,,50.0,False,,0,False,,,,,,,,,,
+RF,X_ECFP6,,,,,,,,,True,0.0,squared_error,200.0,log2,200.0,,0.0,15.0,5.0,0.0,,50.0,False,,0,False,,,,,,,,,,
+RF,X_FCFP6,,,,,,,,,True,0.0,squared_error,150.0,sqrt,200.0,,0.0,5.0,5.0,0.0,,50.0,False,,0,False,,,,,,,,,,
+RF,X_MACCS,,,,,,,,,True,0.0,squared_error,150.0,,150.0,,0.0,10.0,10.0,0.0,,50.0,False,,0,False,,,,,,,,,,
+RF,X_All_descrs,,,,,,,,,True,0.0,squared_error,200.0,sqrt,50.0,,0.0,10.0,5.0,0.0,,150.0,False,,0,False,,,,,,,,,,
+SVR,X_rdkit,,,,,,,,,,,,,,,,,,,,,,,,False,,100.0,200.0,0.0,3.0,0.1,scale,rbf,-1.0,True,0.001
+SVR,X_ECFP6,,,,,,,,,,,,,,,,,,,,,,,,False,,100.0,200.0,0.0,3.0,0.1,scale,rbf,-1.0,True,0.001
+SVR,X_FCFP6,,,,,,,,,,,,,,,,,,,,,,,,False,,100.0,200.0,0.0,3.0,0.1,scale,rbf,-1.0,True,0.001
+SVR,X_MACCS,,,,,,,,,,,,,,,,,,,,,,,,False,,100.0,200.0,0.0,3.0,0.1,scale,poly,-1.0,True,0.001
+SVR,X_All_descrs,,,,,,,,,,,,,,,,,,,,,,,,False,,50.0,200.0,0.0,3.0,0.1,auto,rbf,-1.0,True,0.001
